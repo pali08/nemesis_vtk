@@ -1,0 +1,3 @@
+/home/pali/nemesis_vtk/CreateMolecule/CMakeFiles/rebuild_cache.dir
+/home/pali/nemesis_vtk/CreateMolecule/CMakeFiles/CreateMolecule.dir
+/home/pali/nemesis_vtk/CreateMolecule/CMakeFiles/edit_cache.dir

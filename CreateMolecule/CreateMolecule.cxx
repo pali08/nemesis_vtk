@@ -15,6 +15,7 @@
 #include <vtkDataSetAttributes.h>
 #include "MoleculeAtomBoundCount.h"
 #include "MoleculeInteractorStyle.h"
+#include "MoleculeInteractorStyleAppendCH3.h"
 
 #include <array>
 
