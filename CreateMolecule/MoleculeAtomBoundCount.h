@@ -39,6 +39,14 @@ class MoleculeAtomBoundCount : public vtkMolecule
       //cout << AtomPoints.size();
       return vtkMolecule::AppendAtom(AtomNumber, x, y, z);
     }
+    
+    vtkAtom AppendAtom(int AtomNumber, std::array<float, 3> xyz)
+    {
+      double x = xyz[0];
+      double y = xyz[1];
+      double z = xyz[2];
+      return this->AppendAtom(AtomNumber, x, y, z);
+    }
 
     vtkBond AppendBond(vtkAtom Atom1, vtkAtom Atom2, int BondOrder)
     {
@@ -122,4 +130,13 @@ class MoleculeAtomBoundCount : public vtkMolecule
         AppendBond(GetAtom(AtomBondsTemp[i][0]), GetAtom(AtomBondsTemp[i][1]), AtomBondsTemp[i][2]);       
       }
     }
+    std::array<double, 3> GetPositionAsStdArray(vtkIdType AtomId, vtkVector3f Position)
+    {
+      double x = this->GetAtom(AtomId).GetPosition().GetX();
+      double y = this->GetAtom(AtomId).GetPosition().GetY();
+      double z = this->GetAtom(AtomId).GetPosition().GetZ();
+      std::array<double, 3> result = {x, y, z};
+      return result;
+    }
+
 };

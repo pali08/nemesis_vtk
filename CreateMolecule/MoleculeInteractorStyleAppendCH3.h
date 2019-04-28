@@ -16,10 +16,9 @@ namespace
 {
 class MoleculeInteractorStyleAppendCH3 : public vtkInteractorStyleTrackballCamera
 {
-
 public:
-  static MoleculeInteractorStyle* New();
-  vtkTypeMacro(MoleculeInteractorStyle, vtkInteractorStyleTrackballCamera);
+  static MoleculeInteractorStyleAppendCH3* New();
+  vtkTypeMacro(MoleculeInteractorStyleAppendCH3, vtkInteractorStyleTrackballCamera);
 
   double VectorMagnitude(double x, double y, double z)
   {
@@ -56,13 +55,13 @@ public:
         }
       }
 
-      if (VectorMagnitude(DistX, DistY, DistZ) < 0.5) //need to play a little bit and relaize, how numbers work (different sizes of window etc)
+      if (VectorMagnitude(DistX, DistY, DistZ) < 2.0) //need to play a little bit and relaize, how numbers work (different sizes of window etc)  
       {
-        molecule->AppendAtom(GetNewAtomPosition(BondedAtomsToCurrentAtom, i));
+        molecule->AppendAtom(12, GetNewAtomPosition(BondedAtomsToCurrentAtom, i));
         break;
       }
     }
-
+  }
     // Forward events
     vtkInteractorStyleTrackballCamera::OnLeftButtonDown();
   }
@@ -77,9 +76,9 @@ public:
     this->RenderWindow = RenderWindow;
   }
 
-  std::array<3> AddVector(double[3] a, double[3] b)
+  std::array<double, 3> AddVector(double a[3], double b[3])
   {
-    double[3] c;
+    std::array<double, 3> c;
     for(int i = 0; i < 3; i++)
     {
       c[i] = a[i] + b[i];
@@ -87,9 +86,9 @@ public:
     return c;
   }
 
-  std::array<3> SubtractVector(double[3] a, double[3] b)
+  std::array<double, 3> SubtractVector(double a[3], double b[3])
   {
-    double[3] c;
+    std::array<double, 3> c;
     for(int i = 0; i < 3; i++)
     {
       c[i] = a[i] - b[i];
@@ -101,22 +100,28 @@ public:
   MoleculeAtomBoundCount* molecule = new MoleculeAtomBoundCount();
   vtkSmartPointer<vtkRenderWindow> RenderWindow;
 
-  std::array<int,3> GetNewAtomPosition(std::vector<long long int> BondedAtomsToCurrentAtom, vtkAtomId AtomId)
+  std::array<float, 3> GetNewAtomPosition(std::vector<long long int> BondedAtomsToCurrentAtom, vtkIdType AtomId)
   {
     /**
     @param AtomId current Atom Id to which we want to append atom 
     @param BondedAtomsToCurrentAtom vector of atom Ids that are connected to current atom
     @return position of appended 
     */
-    std::array<int, 3> AveragedAndReversedVector;
+    std::array<float, 3> ResultData = {0.0, 0.0, 0.0};
     if(BondedAtomsToCurrentAtom.size() == 1)
     {
-      float BondedAtomPosition = molecule->GetAtom(BondedAtomsToCurrentAtom[0])->GetPosition();
-      float CurrentAtomPosition = molecule->GetAtom(AtomId)->GetPosition();
-      float ResultPosition = AddVector(CurrentAtomPosition, SubtractVector(CurrentAtomPosition, BondedAtomPosition));
+      vtkVector3f BondedAtomPosition = molecule->GetAtom(BondedAtomsToCurrentAtom[0]).GetPosition();
+      vtkVector3f CurrentAtomPosition = molecule->GetAtom(AtomId).GetPosition();
+      float* BondedAtomData = BondedAtomPosition.GetData();
+      float* CurrentAtomData = CurrentAtomPosition.GetData();
+      for (int i = 0; i < 3; i++)
+      {
+        ResultData[i] = 2*CurrentAtomData[i] - BondedAtomData[i];
+      }
     }
+    return ResultData;
   }
 };
-vtkStandardNewMacro(MoleculeInteractorStyle);
+vtkStandardNewMacro(MoleculeInteractorStyleAppendCH3);
 }
 

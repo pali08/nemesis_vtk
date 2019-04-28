@@ -29,15 +29,15 @@ int main(int, char *[]) {
   vtkNew<vtkIntArray> AtomNumbers;
   vtkNew<vtkDataSetAttributes> Attributes;
 
-  molecule->AppendAtom(1, 0.0, 0.0, 0.0);
+  molecule->AppendAtom(12, 0.0, 0.0, 0.0);
   molecule->AppendAtom(12, 0.0, 2.0, 0.0);
-  molecule->AppendAtom(18, 2.0, 2.0, 0.0);
-  molecule->AppendAtom(90, 2.0, 0.0, 0.0);
+  //molecule->AppendAtom(18, 2.0, 2.0, 0.0);
+  //molecule->AppendAtom(90, 2.0, 0.0, 0.0);
 
   molecule->AppendBond(molecule->GetAtom(0), molecule->GetAtom(1), 1);
-  molecule->AppendBond(molecule->GetAtom(1), molecule->GetAtom(2), 1);
-  molecule->AppendBond(molecule->GetAtom(2), molecule->GetAtom(3), 1);
-  molecule->AppendBond(molecule->GetAtom(3), molecule->GetAtom(0), 1);
+  //molecule->AppendBond(molecule->GetAtom(1), molecule->GetAtom(2), 1);
+  //molecule->AppendBond(molecule->GetAtom(2), molecule->GetAtom(3), 1);
+  //molecule->AppendBond(molecule->GetAtom(3), molecule->GetAtom(0), 1);
 
   vtkSmartPointer<vtkMoleculeMapper> moleculeMapper = 
     vtkSmartPointer<vtkMoleculeMapper>::New();
@@ -58,8 +58,8 @@ int main(int, char *[]) {
   vtkNew<vtkRenderWindowInteractor> iren;
   iren->SetRenderWindow(window);
   
-  vtkSmartPointer<MoleculeInteractorStyle> removeAtomByClick = 
-    vtkSmartPointer<MoleculeInteractorStyle>::New();
+  vtkSmartPointer<MoleculeInteractorStyleAppendCH3> removeAtomByClick = 
+    vtkSmartPointer<MoleculeInteractorStyleAppendCH3>::New();
   removeAtomByClick->SetMolecule(molecule);
 
   iren->SetInteractorStyle(removeAtomByClick);
