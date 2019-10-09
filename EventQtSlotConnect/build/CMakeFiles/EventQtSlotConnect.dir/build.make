@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pali/diplomka/vtk_examples/EventQtSlotConnect
+CMAKE_SOURCE_DIR = /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build
+CMAKE_BINARY_DIR = /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EventQtSlotConnect.dir/depend.make
@@ -58,21 +58,21 @@ include CMakeFiles/EventQtSlotConnect.dir/progress.make
 include CMakeFiles/EventQtSlotConnect.dir/flags.make
 
 ui_EventQtSlotConnect.h: ../EventQtSlotConnect.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_EventQtSlotConnect.h"
-	/usr/lib/qt5/bin/uic -o /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/ui_EventQtSlotConnect.h /home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_EventQtSlotConnect.h"
+	/usr/lib/qt5/bin/uic -o /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/ui_EventQtSlotConnect.h /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.ui
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o: CMakeFiles/EventQtSlotConnect.dir/flags.make
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o: ../EventQtSlotConnect.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o -c /home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o -c /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.cxx
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.cxx > CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.cxx > CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.i
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.cxx -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.cxx -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.s
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o.requires:
 
@@ -87,16 +87,16 @@ CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect.cxx.o.provides.build: CMake
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o: CMakeFiles/EventQtSlotConnect.dir/flags.make
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o: ../EventQtSlotConnectDriver.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o -c /home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnectDriver.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o -c /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnectDriver.cxx
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnectDriver.cxx > CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnectDriver.cxx > CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.i
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnectDriver.cxx -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnectDriver.cxx -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.s
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o.requires:
 
@@ -111,16 +111,16 @@ CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnectDriver.cxx.o.provides.build:
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.o: CMakeFiles/EventQtSlotConnect.dir/flags.make
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.o: EventQtSlotConnect_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.o -c /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.o -c /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp > CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp > CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp -o CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/EventQtSlotConnect.dir/EventQtSlotConnect_autogen/mocs_compilation.cpp.o.requires:
 
@@ -203,7 +203,7 @@ EventQtSlotConnect: /usr/local/lib/libvtkCommonTransforms-8.2.so.1
 EventQtSlotConnect: /usr/local/lib/libvtkCommonMath-8.2.so.1
 EventQtSlotConnect: /usr/local/lib/libvtkCommonCore-8.2.so.1
 EventQtSlotConnect: CMakeFiles/EventQtSlotConnect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable EventQtSlotConnect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable EventQtSlotConnect"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EventQtSlotConnect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -222,6 +222,6 @@ CMakeFiles/EventQtSlotConnect.dir/clean:
 .PHONY : CMakeFiles/EventQtSlotConnect.dir/clean
 
 CMakeFiles/EventQtSlotConnect.dir/depend: ui_EventQtSlotConnect.h
-	cd /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pali/diplomka/vtk_examples/EventQtSlotConnect /home/pali/diplomka/vtk_examples/EventQtSlotConnect /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/EventQtSlotConnect.dir/depend
 

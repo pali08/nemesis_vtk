@@ -1,4 +1,4 @@
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles/rebuild_cache.dir
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect.dir
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles/edit_cache.dir
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect_autogen.dir
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles/rebuild_cache.dir
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect.dir
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles/edit_cache.dir
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect_autogen.dir

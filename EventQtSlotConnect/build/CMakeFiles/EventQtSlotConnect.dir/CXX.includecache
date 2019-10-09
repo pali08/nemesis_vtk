@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.cxx
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.cxx
 EventQtSlotConnect.h
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.h
 MoleculeAtomBoundCount.h
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/MoleculeAtomBoundCount.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/MoleculeAtomBoundCount.h
 MoleculeInteractorStyleAppendCH3.h
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/MoleculeInteractorStyleAppendCH3.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/MoleculeInteractorStyleAppendCH3.h
 vtkGenericOpenGLRenderWindow.h
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/vtkGenericOpenGLRenderWindow.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/vtkGenericOpenGLRenderWindow.h
 vtkIntArray.h
 -
 vtkActor.h
@@ -58,9 +58,9 @@ vtkVersion.h
 array
 -
 
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.h
 ui_EventQtSlotConnect.h
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/ui_EventQtSlotConnect.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/ui_EventQtSlotConnect.h
 vtkIntArray.h
 -
 vtkActor.h
@@ -108,15 +108,15 @@ vtkSmartPointer.h
 vtkObject.h
 -
 
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnectDriver.cxx
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnectDriver.cxx
 QApplication
 -
 QSurfaceFormat
 -
 EventQtSlotConnect.h
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.h
 
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/MoleculeAtomBoundCount.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/MoleculeAtomBoundCount.h
 vtkMolecule.h
 -
 map
@@ -144,7 +144,7 @@ functional
 vtkIntArray.h
 -
 
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/MoleculeInteractorStyleAppendCH3.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/MoleculeInteractorStyleAppendCH3.h
 vtkSmartPointer.h
 -
 vtkRendererCollection.h
@@ -172,17 +172,17 @@ vtkCylindricalTransform.h
 vtkMath.h
 -
 
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/EventQtSlotConnect_autogen/EWIEGA46WW/moc_EventQtSlotConnect.cpp
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/EventQtSlotConnect_autogen/EWIEGA46WW/moc_EventQtSlotConnect.cpp
 ../../../EventQtSlotConnect.h
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/EventQtSlotConnect.h
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/EventQtSlotConnect.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/EventQtSlotConnect_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_EventQtSlotConnect.cpp
-/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/EventQtSlotConnect_autogen/EWIEGA46WW/moc_EventQtSlotConnect.cpp
+/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/EventQtSlotConnect_autogen/EWIEGA46WW/moc_EventQtSlotConnect.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h

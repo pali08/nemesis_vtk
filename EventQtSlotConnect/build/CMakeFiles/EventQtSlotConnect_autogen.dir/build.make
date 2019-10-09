@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pali/diplomka/vtk_examples/EventQtSlotConnect
+CMAKE_SOURCE_DIR = /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build
+CMAKE_BINARY_DIR = /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build
 
 # Utility rule file for EventQtSlotConnect_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build
 include CMakeFiles/EventQtSlotConnect_autogen.dir/progress.make
 
 CMakeFiles/EventQtSlotConnect_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target EventQtSlotConnect"
-	/usr/bin/cmake -E cmake_autogen /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target EventQtSlotConnect"
+	/usr/bin/cmake -E cmake_autogen /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect_autogen.dir ""
 
 EventQtSlotConnect_autogen: CMakeFiles/EventQtSlotConnect_autogen
 EventQtSlotConnect_autogen: CMakeFiles/EventQtSlotConnect_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/EventQtSlotConnect_autogen.dir/clean:
 .PHONY : CMakeFiles/EventQtSlotConnect_autogen.dir/clean
 
 CMakeFiles/EventQtSlotConnect_autogen.dir/depend:
-	cd /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pali/diplomka/vtk_examples/EventQtSlotConnect /home/pali/diplomka/vtk_examples/EventQtSlotConnect /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build /home/pali/diplomka/vtk_examples/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build /home/pali/diplomka/nemesis_vtk/EventQtSlotConnect/build/CMakeFiles/EventQtSlotConnect_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/EventQtSlotConnect_autogen.dir/depend
 
