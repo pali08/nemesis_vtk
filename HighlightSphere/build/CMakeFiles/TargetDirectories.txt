@@ -1,0 +1,4 @@
+/home/pali/diplomka/vtk_examples/HighlightSphere/build/CMakeFiles/rebuild_cache.dir
+/home/pali/diplomka/vtk_examples/HighlightSphere/build/CMakeFiles/EventQtSlotConnect.dir
+/home/pali/diplomka/vtk_examples/HighlightSphere/build/CMakeFiles/edit_cache.dir
+/home/pali/diplomka/vtk_examples/HighlightSphere/build/CMakeFiles/EventQtSlotConnect_autogen.dir
